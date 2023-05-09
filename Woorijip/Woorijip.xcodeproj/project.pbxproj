@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55345A4E29F8BD6500D0F007 /* WoorijipFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55345A4D29F8BD6500D0F007 /* WoorijipFontStyle.swift */; };
+		55345A5229F8C96700D0F007 /* AppleSDGothicNeoB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55345A4F29F8C96700D0F007 /* AppleSDGothicNeoB.ttf */; };
+		55345A5329F8C96700D0F007 /* AppleSDGothicNeoR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55345A5029F8C96700D0F007 /* AppleSDGothicNeoR.ttf */; };
+		55345A5429F8C96700D0F007 /* AppleSDGothicNeoSB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55345A5129F8C96700D0F007 /* AppleSDGothicNeoSB.ttf */; };
+		55345A5729F8FAF100D0F007 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55345A5629F8FAF100D0F007 /* PageControl.swift */; };
+		557C647B2A0202B600E35056 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647A2A0202B600E35056 /* TextField.swift */; };
+		557C647E2A08774600E35056 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647D2A08774600E35056 /* Button.swift */; };
+		557C64802A08B62900E35056 /* View+navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647F2A08B62900E35056 /* View+navigate.swift */; };
+		557C64842A08D5D800E35056 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64832A08D5D800E35056 /* MainView.swift */; };
+		55A2052229EFBA100074C16F /* NanumMyeongjo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2051F29EFBA0F0074C16F /* NanumMyeongjo.ttf */; };
+		55A2052329EFBA100074C16F /* NanumMyeongjoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052029EFBA100074C16F /* NanumMyeongjoBold.ttf */; };
+		55A2052429EFBA100074C16F /* NanumMyeongjoExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052129EFBA100074C16F /* NanumMyeongjoExtraBold.ttf */; };
+		55A2052729EFBB140074C16F /* GrayColor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052629EFBB140074C16F /* GrayColor.xcassets */; };
+		55A2052929EFBCC30074C16F /* MainColor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052829EFBCC30074C16F /* MainColor.xcassets */; };
+		55A2052B29EFBED00074C16F /* SystemColor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052A29EFBED00074C16F /* SystemColor.xcassets */; };
+		55A2052D29EFC2D70074C16F /* GrayScaleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A2052C29EFC2D70074C16F /* GrayScaleColor.swift */; };
+		55A2052F29F02DBC0074C16F /* SystemScaleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A2052E29F02DBC0074C16F /* SystemScaleColor.swift */; };
+		55C5127929E6880800002931 /* WooriFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5127829E6880800002931 /* WooriFontStyle.swift */; };
+		55C5127D29E68AB100002931 /* MainScaleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5127C29E68AB100002931 /* MainScaleColor.swift */; };
 		55F9FBAD29DD19D30022E512 /* WoorijipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FBAC29DD19D30022E512 /* WoorijipApp.swift */; };
-		55F9FBAF29DD19D30022E512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FBAE29DD19D30022E512 /* ContentView.swift */; };
 		55F9FBB129DD19D30022E512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F9FBB029DD19D30022E512 /* Assets.xcassets */; };
 		55F9FBB429DD19D30022E512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F9FBB329DD19D30022E512 /* Preview Assets.xcassets */; };
 		55F9FBBE29DD19D30022E512 /* WoorijipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FBBD29DD19D30022E512 /* WoorijipTests.swift */; };
 		55F9FBC829DD19D30022E512 /* WoorijipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FBC729DD19D30022E512 /* WoorijipUITests.swift */; };
 		55F9FBCA29DD19D30022E512 /* WoorijipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FBC929DD19D30022E512 /* WoorijipUITestsLaunchTests.swift */; };
+		55F9FBD829DD20EE0022E512 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FBD729DD20EE0022E512 /* SignInView.swift */; };
+		55FC7E0129DD4EBA00686C2A /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FC7E0029DD4EBA00686C2A /* OnboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +54,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55345A4D29F8BD6500D0F007 /* WoorijipFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipFontStyle.swift; sourceTree = "<group>"; };
+		55345A4F29F8C96700D0F007 /* AppleSDGothicNeoB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleSDGothicNeoB.ttf; path = "../../../../../../../Downloads/Apple_산돌고딕_Neo/AppleSDGothicNeoB.ttf"; sourceTree = "<group>"; };
+		55345A5029F8C96700D0F007 /* AppleSDGothicNeoR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleSDGothicNeoR.ttf; path = "../../../../../../../Downloads/Apple_산돌고딕_Neo/AppleSDGothicNeoR.ttf"; sourceTree = "<group>"; };
+		55345A5129F8C96700D0F007 /* AppleSDGothicNeoSB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleSDGothicNeoSB.ttf; path = "../../../../../../../Downloads/Apple_산돌고딕_Neo/AppleSDGothicNeoSB.ttf"; sourceTree = "<group>"; };
+		55345A5529F8D0DF00D0F007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		55345A5629F8FAF100D0F007 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		557C647A2A0202B600E35056 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		557C647D2A08774600E35056 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		557C647F2A08B62900E35056 /* View+navigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigate.swift"; sourceTree = "<group>"; };
+		557C64832A08D5D800E35056 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		55A2051F29EFBA0F0074C16F /* NanumMyeongjo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjo.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjo.ttf"; sourceTree = "<group>"; };
+		55A2052029EFBA100074C16F /* NanumMyeongjoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjoBold.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjoBold.ttf"; sourceTree = "<group>"; };
+		55A2052129EFBA100074C16F /* NanumMyeongjoExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjoExtraBold.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjoExtraBold.ttf"; sourceTree = "<group>"; };
+		55A2052629EFBB140074C16F /* GrayColor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GrayColor.xcassets; sourceTree = "<group>"; };
+		55A2052829EFBCC30074C16F /* MainColor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainColor.xcassets; sourceTree = "<group>"; };
+		55A2052A29EFBED00074C16F /* SystemColor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SystemColor.xcassets; sourceTree = "<group>"; };
+		55A2052C29EFC2D70074C16F /* GrayScaleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayScaleColor.swift; sourceTree = "<group>"; };
+		55A2052E29F02DBC0074C16F /* SystemScaleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemScaleColor.swift; sourceTree = "<group>"; };
+		55C5127829E6880800002931 /* WooriFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooriFontStyle.swift; sourceTree = "<group>"; };
+		55C5127C29E68AB100002931 /* MainScaleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScaleColor.swift; sourceTree = "<group>"; };
 		55F9FBA929DD19D30022E512 /* Woorijip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woorijip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F9FBAC29DD19D30022E512 /* WoorijipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipApp.swift; sourceTree = "<group>"; };
-		55F9FBAE29DD19D30022E512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55F9FBB029DD19D30022E512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F9FBB329DD19D30022E512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55F9FBB929DD19D30022E512 /* WoorijipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoorijipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +83,8 @@
 		55F9FBC329DD19D30022E512 /* WoorijipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoorijipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F9FBC729DD19D30022E512 /* WoorijipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipUITests.swift; sourceTree = "<group>"; };
 		55F9FBC929DD19D30022E512 /* WoorijipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55F9FBD729DD20EE0022E512 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		55FC7E0029DD4EBA00686C2A /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +112,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55345A4C29F8BD3C00D0F007 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				55345A4D29F8BD6500D0F007 /* WoorijipFontStyle.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		557C64792A0202AB00E35056 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				557C647A2A0202B600E35056 /* TextField.swift */,
+				557C647F2A08B62900E35056 /* View+navigate.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		557C647C2A035A0B00E35056 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				557C647D2A08774600E35056 /* Button.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		55A2051229EFB6A20074C16F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				55345A4F29F8C96700D0F007 /* AppleSDGothicNeoB.ttf */,
+				55345A5029F8C96700D0F007 /* AppleSDGothicNeoR.ttf */,
+				55345A5129F8C96700D0F007 /* AppleSDGothicNeoSB.ttf */,
+				55A2051F29EFBA0F0074C16F /* NanumMyeongjo.ttf */,
+				55A2052029EFBA100074C16F /* NanumMyeongjoBold.ttf */,
+				55A2052129EFBA100074C16F /* NanumMyeongjoExtraBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		55C5127729E685BD00002931 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				557C647C2A035A0B00E35056 /* Component */,
+				55345A4C29F8BD3C00D0F007 /* Typography */,
+				55A2051229EFB6A20074C16F /* Fonts */,
+				55C5127B29E689DE00002931 /* Color */,
+				55C5127829E6880800002931 /* WooriFontStyle.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		55C5127B29E689DE00002931 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				55C5127C29E68AB100002931 /* MainScaleColor.swift */,
+				55A2052829EFBCC30074C16F /* MainColor.xcassets */,
+				55A2052C29EFC2D70074C16F /* GrayScaleColor.swift */,
+				55A2052629EFBB140074C16F /* GrayColor.xcassets */,
+				55A2052E29F02DBC0074C16F /* SystemScaleColor.swift */,
+				55A2052A29EFBED00074C16F /* SystemColor.xcassets */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		55F9FBA029DD19D30022E512 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +198,13 @@
 		55F9FBAB29DD19D30022E512 /* Woorijip */ = {
 			isa = PBXGroup;
 			children = (
+				55345A5529F8D0DF00D0F007 /* Info.plist */,
+				55C5127729E685BD00002931 /* DesignSystem */,
+				55F9FBD629DD1DB80022E512 /* Features */,
 				55F9FBAC29DD19D30022E512 /* WoorijipApp.swift */,
-				55F9FBAE29DD19D30022E512 /* ContentView.swift */,
-				55F9FBB029DD19D30022E512 /* Assets.xcassets */,
 				55F9FBB229DD19D30022E512 /* Preview Content */,
+				55345A5629F8FAF100D0F007 /* PageControl.swift */,
+				55F9FBB029DD19D30022E512 /* Assets.xcassets */,
 			);
 			path = Woorijip;
 			sourceTree = "<group>";
@@ -125,6 +232,17 @@
 				55F9FBC929DD19D30022E512 /* WoorijipUITestsLaunchTests.swift */,
 			);
 			path = WoorijipUITests;
+			sourceTree = "<group>";
+		};
+		55F9FBD629DD1DB80022E512 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				557C64792A0202AB00E35056 /* Extension */,
+				55F9FBD729DD20EE0022E512 /* SignInView.swift */,
+				55FC7E0029DD4EBA00686C2A /* OnboardView.swift */,
+				557C64832A08D5D800E35056 /* MainView.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +349,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A2052229EFBA100074C16F /* NanumMyeongjo.ttf in Resources */,
+				55A2052329EFBA100074C16F /* NanumMyeongjoBold.ttf in Resources */,
+				55A2052929EFBCC30074C16F /* MainColor.xcassets in Resources */,
+				55A2052429EFBA100074C16F /* NanumMyeongjoExtraBold.ttf in Resources */,
+				55345A5329F8C96700D0F007 /* AppleSDGothicNeoR.ttf in Resources */,
+				55A2052B29EFBED00074C16F /* SystemColor.xcassets in Resources */,
+				55345A5229F8C96700D0F007 /* AppleSDGothicNeoB.ttf in Resources */,
 				55F9FBB429DD19D30022E512 /* Preview Assets.xcassets in Resources */,
 				55F9FBB129DD19D30022E512 /* Assets.xcassets in Resources */,
+				55345A5429F8C96700D0F007 /* AppleSDGothicNeoSB.ttf in Resources */,
+				55A2052729EFBB140074C16F /* GrayColor.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +384,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F9FBAF29DD19D30022E512 /* ContentView.swift in Sources */,
+				55345A5729F8FAF100D0F007 /* PageControl.swift in Sources */,
+				557C64842A08D5D800E35056 /* MainView.swift in Sources */,
+				557C647B2A0202B600E35056 /* TextField.swift in Sources */,
+				55345A4E29F8BD6500D0F007 /* WoorijipFontStyle.swift in Sources */,
+				55FC7E0129DD4EBA00686C2A /* OnboardView.swift in Sources */,
+				55A2052D29EFC2D70074C16F /* GrayScaleColor.swift in Sources */,
+				55C5127D29E68AB100002931 /* MainScaleColor.swift in Sources */,
+				557C64802A08B62900E35056 /* View+navigate.swift in Sources */,
+				55F9FBD829DD20EE0022E512 /* SignInView.swift in Sources */,
+				557C647E2A08774600E35056 /* Button.swift in Sources */,
+				55C5127929E6880800002931 /* WooriFontStyle.swift in Sources */,
+				55A2052F29F02DBC0074C16F /* SystemScaleColor.swift in Sources */,
 				55F9FBAD29DD19D30022E512 /* WoorijipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +559,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Woorijip/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Woorijip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +588,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Woorijip/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Woorijip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AppleSDGothicNeoB.ttf</string>
+		<string>AppleSDGothicNeoSB.ttf</string>
+		<string>AppleSDGothicNeoR.ttf</string>
+		<string>NanumMyeongjo.ttf</string>
+		<string>NanumMyeongjoBold.ttf</string>
+		<string>NanumMyeongjoExtraBold.ttf</string>
+	</array>
+</dict>
+</plist>
