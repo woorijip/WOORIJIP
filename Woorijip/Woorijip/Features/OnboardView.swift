@@ -3,7 +3,7 @@ import SwiftUI
 struct OnboardView: View {
     
     @State private var isLastStack = false
-    @State var isSignInNavigate = false
+    @State private var isSignInNavigate = false
     
     private let onboardingViews: [(text: String, image: String)] = [
         ("모임을 원하는 사람들에게,", "Onboard1"),

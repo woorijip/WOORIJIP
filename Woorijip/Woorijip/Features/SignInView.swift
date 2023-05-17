@@ -2,8 +2,10 @@ import Foundation
 import SwiftUI
 
 struct SignInView: View {
-    @State var idText: String = ""
-    @State var passwordText: String = ""
+    @State private var idText: String = ""
+    @State private var passwordText: String = ""
+    @State private var isSignInNavigate = false
+
     
     var body: some View {
         VStack {
@@ -29,9 +31,12 @@ struct SignInView: View {
                 
                 Spacer().frame(height: 40)
 
-                WooriButton(text: "로그인"){}
+                WooriButton(text: "로그인"){
+                    isSignInNavigate.toggle()
+                }
                 
             }
+            .navigate(to: MainView(), when: $isSignInNavigate)
             .navigationTitle("")
             .padding(.horizontal, 40)
         }
