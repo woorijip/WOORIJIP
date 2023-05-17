@@ -1,7 +1,9 @@
 import SwiftUI
 
 struct MainView: View {
-    @State var selectedIndex = 0
+    @State private var selectedIndex = 0
+    @State private var isSearchNavigate = false
+
     
     let icons = [
         "Home",
@@ -15,7 +17,25 @@ struct MainView: View {
                 switch selectedIndex {
                 case 0:
                     NavigationView {
-                        
+                        VStack() {
+                            HStack {
+                                Text("우리동네").wooriFont(font: .AppleSDGothicNeoBold, size: 18)
+                                Spacer()
+                                Button(action: { isSearchNavigate.toggle() }) {
+                                    Image("Search")
+                                }
+                            }
+                            Spacer()
+                            Image("Empty")
+                            Spacer().frame(height: 40.5)
+                            Text("우리 동네에 모임이 없어요.")
+                                .wooriFont(font: .NanumMyeongjo, size: 14)
+                            Spacer()
+                            WooriButton(text: "모임 만들기") {
+                                
+                            }
+                            Spacer().frame(height: 30)
+                        }.padding(.horizontal, 40)
                     }
                 case 1:
                     NavigationView {
@@ -29,6 +49,8 @@ struct MainView: View {
                 
                 
             }
+            .navigationTitle("")
+            .navigate(to: SearchView(), when: $isSearchNavigate)
             Spacer()
             Divider()
             HStack {
