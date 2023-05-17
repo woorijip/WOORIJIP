@@ -10,16 +10,22 @@ import SwiftUI
 public struct FloatingTextField: View {
     let placeholder: String
     let isSecret: Bool
+    let size: CGFloat
+    let height: CGFloat
     @Binding var text: String
     @State private var isShow: Bool
     
     init(
         _ placeholder: String,
         isSecret: Bool,
+        size: CGFloat = 14,
+        height: CGFloat = 40,
         text: Binding<String>
     ) {
         self.placeholder = placeholder
         self.isSecret = isSecret
+        self.size = size
+        self.height = height
         self._text = text
         self.isShow = !isSecret
     }
@@ -33,8 +39,8 @@ public struct FloatingTextField: View {
                     SecureField(placeholder, text: $text)
                 }
             }
-            .font(.system(size: 16, weight: .regular))
-            .frame(height: 45)
+            .font(.system(size: size, weight: .regular))
+            .frame(height: height)
             .padding(.leading, 19)
             .textInputAutocapitalization(.never)
             .overlay {

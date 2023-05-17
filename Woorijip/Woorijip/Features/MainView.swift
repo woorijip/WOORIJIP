@@ -18,6 +18,7 @@ struct MainView: View {
                 case 0:
                     NavigationView {
                         VStack() {
+                            Spacer().frame(height: 33)
                             HStack {
                                 Text("우리동네").wooriFont(font: .AppleSDGothicNeoBold, size: 18)
                                 Spacer()
@@ -49,6 +50,7 @@ struct MainView: View {
                 
                 
             }
+            .navigationBarHidden(true)
             .navigationTitle("")
             .navigate(to: SearchView(), when: $isSearchNavigate)
             Spacer()
