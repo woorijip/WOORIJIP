@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		550F1AA32A14795A00D9A267 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F1AA22A14795A00D9A267 /* SearchView.swift */; };
+		550F1AA52A14B51600D9A267 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F1AA42A14B51600D9A267 /* FilterView.swift */; };
 		55345A4E29F8BD6500D0F007 /* WoorijipFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55345A4D29F8BD6500D0F007 /* WoorijipFontStyle.swift */; };
 		55345A5229F8C96700D0F007 /* AppleSDGothicNeoB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55345A4F29F8C96700D0F007 /* AppleSDGothicNeoB.ttf */; };
 		55345A5329F8C96700D0F007 /* AppleSDGothicNeoR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55345A5029F8C96700D0F007 /* AppleSDGothicNeoR.ttf */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		550F1AA22A14795A00D9A267 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		550F1AA42A14B51600D9A267 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		55345A4D29F8BD6500D0F007 /* WoorijipFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipFontStyle.swift; sourceTree = "<group>"; };
 		55345A4F29F8C96700D0F007 /* AppleSDGothicNeoB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleSDGothicNeoB.ttf; path = "../../../../../../../Downloads/Apple_산돌고딕_Neo/AppleSDGothicNeoB.ttf"; sourceTree = "<group>"; };
 		55345A5029F8C96700D0F007 /* AppleSDGothicNeoR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleSDGothicNeoR.ttf; path = "../../../../../../../Downloads/Apple_산돌고딕_Neo/AppleSDGothicNeoR.ttf"; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				55FC7E0029DD4EBA00686C2A /* OnboardView.swift */,
 				557C64832A08D5D800E35056 /* MainView.swift */,
 				550F1AA22A14795A00D9A267 /* SearchView.swift */,
+				550F1AA42A14B51600D9A267 /* FilterView.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				550F1AA32A14795A00D9A267 /* SearchView.swift in Sources */,
 				55C5127929E6880800002931 /* WooriFontStyle.swift in Sources */,
 				55A2052F29F02DBC0074C16F /* SystemScaleColor.swift in Sources */,
+				550F1AA52A14B51600D9A267 /* FilterView.swift in Sources */,
 				55F9FBAD29DD19D30022E512 /* WoorijipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

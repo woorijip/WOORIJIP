@@ -51,7 +51,6 @@ struct MainView: View {
                 
             }
             .navigationBarHidden(true)
-            .navigationTitle("")
             .navigate(to: SearchView(), when: $isSearchNavigate)
             Spacer()
             Divider()

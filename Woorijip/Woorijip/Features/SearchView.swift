@@ -2,6 +2,7 @@ import SwiftUI
 
 struct SearchView: View {
     @State private var searchText: String = ""
+    @State private var isFilterNavigate = false
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
@@ -17,7 +18,7 @@ struct SearchView: View {
                 }
             }
             Spacer().frame(height: 12)
-            Button(action:{}) {
+            Button(action:{ isFilterNavigate.toggle() }) {
                 Image("Filter")
                 Text("모임 필터링")
                     .wooriFont(font: .AppleSDGothicNeoRegular, size: 10)
@@ -31,6 +32,7 @@ struct SearchView: View {
 
         }
         .navigationBarHidden(true)
+        .navigate(to: FilterView(), when: $isFilterNavigate)
         .padding(.horizontal, 40)
     }
 }
