@@ -18,6 +18,68 @@
             endingLineNumber = "11"
             landmarkName = "unknown"
             landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "8BFE8883-7B6B-4AD7-96DB-00E3BFFB6110 - e42a0780b937f6d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Woorijip.WoorijipFontWeight.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;Woorijip.WoorijipFontWeight&gt;"
+                  moduleName = "Woorijip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimjunho/Desktop/github/WOORIJIP_IOS/Woorijip/Woorijip/DesignSystem/Typography/WoorijipFontStyle.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "8BFE8883-7B6B-4AD7-96DB-00E3BFFB6110 - c6f09f5168bb1f33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Woorijip.WoorijipFontWeight.rawValue.getter : Swift.String"
+                  moduleName = "Woorijip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimjunho/Desktop/github/WOORIJIP_IOS/Woorijip/Woorijip/DesignSystem/Typography/WoorijipFontStyle.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21BC96BD-513E-496F-ACF6-4C57DC7EE527"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Woorijip/Networking/API/MembersAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5133DFEB-A211-4DD1-9489-1B5403438CA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Woorijip/Networking/Base/BaseRemoteDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "defaultRequest(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

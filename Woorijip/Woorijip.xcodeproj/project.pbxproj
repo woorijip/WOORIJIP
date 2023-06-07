@@ -9,11 +9,27 @@
 /* Begin PBXBuildFile section */
 		550F1AA32A14795A00D9A267 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F1AA22A14795A00D9A267 /* SearchView.swift */; };
 		550F1AA52A14B51600D9A267 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F1AA42A14B51600D9A267 /* FilterView.swift */; };
+		550FD14B2A2723E20090B5DF /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 550FD14A2A2723E20090B5DF /* CombineMoya */; };
+		550FD14D2A2723E20090B5DF /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 550FD14C2A2723E20090B5DF /* Moya */; };
+		550FD14F2A2723E20090B5DF /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 550FD14E2A2723E20090B5DF /* RxMoya */; };
+		550FD1522A2724C00090B5DF /* BaseRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD1512A2724C00090B5DF /* BaseRemoteDataSource.swift */; };
+		550FD1552A2724F30090B5DF /* WoorijipError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD1542A2724F30090B5DF /* WoorijipError.swift */; };
+		550FD1582A2725A10090B5DF /* WoorijipAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD1572A2725A10090B5DF /* WoorijipAPI.swift */; };
+		550FD15A2A2725B90090B5DF /* AnyPublisher+map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD1592A2725B90090B5DF /* AnyPublisher+map.swift */; };
+		550FD15D2A2726C10090B5DF /* JwtAuthorizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD15C2A2726C10090B5DF /* JwtAuthorizable.swift */; };
+		550FD15F2A2726D30090B5DF /* JwtPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD15E2A2726D30090B5DF /* JwtPlugin.swift */; };
+		550FD1612A2726FE0090B5DF /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD1602A2726FE0090B5DF /* Keychain.swift */; };
+		550FD1632A27271B0090B5DF /* KeychainImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD1622A27271B0090B5DF /* KeychainImpl.swift */; };
+		550FD1662A2729A00090B5DF /* SignInRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD1652A2729A00090B5DF /* SignInRequestDTO.swift */; };
+		550FD1682A2729BD0090B5DF /* SignUpRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD1672A2729BD0090B5DF /* SignUpRequestDTO.swift */; };
+		550FD16D2A272BE50090B5DF /* MainDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FD16C2A272BE40090B5DF /* MainDataSource.swift */; };
 		55345A4E29F8BD6500D0F007 /* WoorijipFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55345A4D29F8BD6500D0F007 /* WoorijipFontStyle.swift */; };
 		55345A5229F8C96700D0F007 /* AppleSDGothicNeoB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55345A4F29F8C96700D0F007 /* AppleSDGothicNeoB.ttf */; };
 		55345A5329F8C96700D0F007 /* AppleSDGothicNeoR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55345A5029F8C96700D0F007 /* AppleSDGothicNeoR.ttf */; };
 		55345A5429F8C96700D0F007 /* AppleSDGothicNeoSB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55345A5129F8C96700D0F007 /* AppleSDGothicNeoSB.ttf */; };
 		55345A5729F8FAF100D0F007 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55345A5629F8FAF100D0F007 /* PageControl.swift */; };
+		557622C02A29FD8800A6DF39 /* mettingResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557622BF2A29FD8800A6DF39 /* mettingResponseDTO.swift */; };
+		557622C32A29FF3700A6DF39 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557622C22A29FF3700A6DF39 /* MainViewModel.swift */; };
 		557C647B2A0202B600E35056 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647A2A0202B600E35056 /* TextField.swift */; };
 		557C647E2A08774600E35056 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647D2A08774600E35056 /* Button.swift */; };
 		557C64802A08B62900E35056 /* View+navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647F2A08B62900E35056 /* View+navigate.swift */; };
@@ -28,6 +44,8 @@
 		55A2052F29F02DBC0074C16F /* SystemScaleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A2052E29F02DBC0074C16F /* SystemScaleColor.swift */; };
 		55C5127929E6880800002931 /* WooriFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5127829E6880800002931 /* WooriFontStyle.swift */; };
 		55C5127D29E68AB100002931 /* MainScaleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5127C29E68AB100002931 /* MainScaleColor.swift */; };
+		55CDE4E32A28A1EC00027E87 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDE4E22A28A1EC00027E87 /* SignInViewModel.swift */; };
+		55CDE4E72A28A31E00027E87 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDE4E62A28A31E00027E87 /* BaseViewModel.swift */; };
 		55F9FBAD29DD19D30022E512 /* WoorijipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9FBAC29DD19D30022E512 /* WoorijipApp.swift */; };
 		55F9FBB129DD19D30022E512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F9FBB029DD19D30022E512 /* Assets.xcassets */; };
 		55F9FBB429DD19D30022E512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F9FBB329DD19D30022E512 /* Preview Assets.xcassets */; };
@@ -58,12 +76,25 @@
 /* Begin PBXFileReference section */
 		550F1AA22A14795A00D9A267 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		550F1AA42A14B51600D9A267 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		550FD1512A2724C00090B5DF /* BaseRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRemoteDataSource.swift; sourceTree = "<group>"; };
+		550FD1542A2724F30090B5DF /* WoorijipError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipError.swift; sourceTree = "<group>"; };
+		550FD1572A2725A10090B5DF /* WoorijipAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipAPI.swift; sourceTree = "<group>"; };
+		550FD1592A2725B90090B5DF /* AnyPublisher+map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyPublisher+map.swift"; sourceTree = "<group>"; };
+		550FD15C2A2726C10090B5DF /* JwtAuthorizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwtAuthorizable.swift; sourceTree = "<group>"; };
+		550FD15E2A2726D30090B5DF /* JwtPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JwtPlugin.swift; sourceTree = "<group>"; };
+		550FD1602A2726FE0090B5DF /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		550FD1622A27271B0090B5DF /* KeychainImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainImpl.swift; sourceTree = "<group>"; };
+		550FD1652A2729A00090B5DF /* SignInRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRequestDTO.swift; sourceTree = "<group>"; };
+		550FD1672A2729BD0090B5DF /* SignUpRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestDTO.swift; sourceTree = "<group>"; };
+		550FD16C2A272BE40090B5DF /* MainDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDataSource.swift; sourceTree = "<group>"; };
 		55345A4D29F8BD6500D0F007 /* WoorijipFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipFontStyle.swift; sourceTree = "<group>"; };
 		55345A4F29F8C96700D0F007 /* AppleSDGothicNeoB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleSDGothicNeoB.ttf; path = "../../../../../../../Downloads/Apple_산돌고딕_Neo/AppleSDGothicNeoB.ttf"; sourceTree = "<group>"; };
 		55345A5029F8C96700D0F007 /* AppleSDGothicNeoR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleSDGothicNeoR.ttf; path = "../../../../../../../Downloads/Apple_산돌고딕_Neo/AppleSDGothicNeoR.ttf"; sourceTree = "<group>"; };
 		55345A5129F8C96700D0F007 /* AppleSDGothicNeoSB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleSDGothicNeoSB.ttf; path = "../../../../../../../Downloads/Apple_산돌고딕_Neo/AppleSDGothicNeoSB.ttf"; sourceTree = "<group>"; };
-		55345A5529F8D0DF00D0F007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		55345A5529F8D0DF00D0F007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55345A5629F8FAF100D0F007 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		557622BF2A29FD8800A6DF39 /* mettingResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mettingResponseDTO.swift; sourceTree = "<group>"; };
+		557622C22A29FF3700A6DF39 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		557C647A2A0202B600E35056 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		557C647D2A08774600E35056 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		557C647F2A08B62900E35056 /* View+navigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigate.swift"; sourceTree = "<group>"; };
@@ -78,6 +109,8 @@
 		55A2052E29F02DBC0074C16F /* SystemScaleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemScaleColor.swift; sourceTree = "<group>"; };
 		55C5127829E6880800002931 /* WooriFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooriFontStyle.swift; sourceTree = "<group>"; };
 		55C5127C29E68AB100002931 /* MainScaleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScaleColor.swift; sourceTree = "<group>"; };
+		55CDE4E22A28A1EC00027E87 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		55CDE4E62A28A31E00027E87 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		55F9FBA929DD19D30022E512 /* Woorijip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woorijip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F9FBAC29DD19D30022E512 /* WoorijipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoorijipApp.swift; sourceTree = "<group>"; };
 		55F9FBB029DD19D30022E512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +129,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550FD14F2A2723E20090B5DF /* RxMoya in Frameworks */,
+				550FD14D2A2723E20090B5DF /* Moya in Frameworks */,
+				550FD14B2A2723E20090B5DF /* CombineMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +152,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550FD1502A27241A0090B5DF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				550FD16B2A272BC80090B5DF /* DataSource */,
+				550FD1642A27298D0090B5DF /* DataMapping */,
+				550FD15B2A2726B50090B5DF /* Plugins */,
+				550FD1562A27258F0090B5DF /* API */,
+				550FD1532A2724DC0090B5DF /* Base */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		550FD1532A2724DC0090B5DF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				550FD1512A2724C00090B5DF /* BaseRemoteDataSource.swift */,
+				550FD1542A2724F30090B5DF /* WoorijipError.swift */,
+				550FD1592A2725B90090B5DF /* AnyPublisher+map.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		550FD1562A27258F0090B5DF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				550FD1572A2725A10090B5DF /* WoorijipAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		550FD15B2A2726B50090B5DF /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				550FD15C2A2726C10090B5DF /* JwtAuthorizable.swift */,
+				550FD15E2A2726D30090B5DF /* JwtPlugin.swift */,
+				550FD1602A2726FE0090B5DF /* Keychain.swift */,
+				550FD1622A27271B0090B5DF /* KeychainImpl.swift */,
+			);
+			name = Plugins;
+			path = "ㅖㅣㅕ햐ㅜㄴ";
+			sourceTree = "<group>";
+		};
+		550FD1642A27298D0090B5DF /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				550FD1652A2729A00090B5DF /* SignInRequestDTO.swift */,
+				550FD1672A2729BD0090B5DF /* SignUpRequestDTO.swift */,
+				557622BF2A29FD8800A6DF39 /* mettingResponseDTO.swift */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		550FD16B2A272BC80090B5DF /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				550FD16C2A272BE40090B5DF /* MainDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		55345A4C29F8BD3C00D0F007 /* Typography */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,9 +220,19 @@
 			path = Typography;
 			sourceTree = "<group>";
 		};
+		557622C12A29FF2800A6DF39 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				557C64832A08D5D800E35056 /* MainView.swift */,
+				557622C22A29FF3700A6DF39 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		557C64792A0202AB00E35056 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				55345A5629F8FAF100D0F007 /* PageControl.swift */,
 				557C647A2A0202B600E35056 /* TextField.swift */,
 				557C647F2A08B62900E35056 /* View+navigate.swift */,
 			);
@@ -179,6 +285,31 @@
 			path = Color;
 			sourceTree = "<group>";
 		};
+		55CDE4E12A28A1CC00027E87 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				55F9FBD729DD20EE0022E512 /* SignInView.swift */,
+				55CDE4E22A28A1EC00027E87 /* SignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		55CDE4E42A28A2E500027E87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55F9FBB029DD19D30022E512 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55CDE4E52A28A31400027E87 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				55CDE4E62A28A31E00027E87 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		55F9FBA029DD19D30022E512 = {
 			isa = PBXGroup;
 			children = (
@@ -203,12 +334,13 @@
 			isa = PBXGroup;
 			children = (
 				55345A5529F8D0DF00D0F007 /* Info.plist */,
+				55CDE4E52A28A31400027E87 /* Base */,
+				55CDE4E42A28A2E500027E87 /* Resources */,
+				55F9FBB229DD19D30022E512 /* Preview Content */,
+				550FD1502A27241A0090B5DF /* Networking */,
 				55C5127729E685BD00002931 /* DesignSystem */,
 				55F9FBD629DD1DB80022E512 /* Features */,
 				55F9FBAC29DD19D30022E512 /* WoorijipApp.swift */,
-				55F9FBB229DD19D30022E512 /* Preview Content */,
-				55345A5629F8FAF100D0F007 /* PageControl.swift */,
-				55F9FBB029DD19D30022E512 /* Assets.xcassets */,
 			);
 			path = Woorijip;
 			sourceTree = "<group>";
@@ -241,10 +373,10 @@
 		55F9FBD629DD1DB80022E512 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				557622C12A29FF2800A6DF39 /* Main */,
+				55CDE4E12A28A1CC00027E87 /* SignIn */,
 				557C64792A0202AB00E35056 /* Extension */,
-				55F9FBD729DD20EE0022E512 /* SignInView.swift */,
 				55FC7E0029DD4EBA00686C2A /* OnboardView.swift */,
-				557C64832A08D5D800E35056 /* MainView.swift */,
 				550F1AA22A14795A00D9A267 /* SearchView.swift */,
 				550F1AA42A14B51600D9A267 /* FilterView.swift */,
 			);
@@ -267,6 +399,11 @@
 			dependencies = (
 			);
 			name = Woorijip;
+			packageProductDependencies = (
+				550FD14A2A2723E20090B5DF /* CombineMoya */,
+				550FD14C2A2723E20090B5DF /* Moya */,
+				550FD14E2A2723E20090B5DF /* RxMoya */,
+			);
 			productName = Woorijip;
 			productReference = 55F9FBA929DD19D30022E512 /* Woorijip.app */;
 			productType = "com.apple.product-type.application";
@@ -339,6 +476,9 @@
 				Base,
 			);
 			mainGroup = 55F9FBA029DD19D30022E512;
+			packageReferences = (
+				550FD1492A2723E20090B5DF /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 55F9FBAA29DD19D30022E512 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -395,15 +535,30 @@
 				557C647B2A0202B600E35056 /* TextField.swift in Sources */,
 				55345A4E29F8BD6500D0F007 /* WoorijipFontStyle.swift in Sources */,
 				55FC7E0129DD4EBA00686C2A /* OnboardView.swift in Sources */,
+				557622C32A29FF3700A6DF39 /* MainViewModel.swift in Sources */,
+				550FD1612A2726FE0090B5DF /* Keychain.swift in Sources */,
 				55A2052D29EFC2D70074C16F /* GrayScaleColor.swift in Sources */,
+				557622C02A29FD8800A6DF39 /* mettingResponseDTO.swift in Sources */,
+				550FD1552A2724F30090B5DF /* WoorijipError.swift in Sources */,
+				55CDE4E32A28A1EC00027E87 /* SignInViewModel.swift in Sources */,
+				550FD1582A2725A10090B5DF /* WoorijipAPI.swift in Sources */,
+				550FD1662A2729A00090B5DF /* SignInRequestDTO.swift in Sources */,
 				55C5127D29E68AB100002931 /* MainScaleColor.swift in Sources */,
+				550FD1522A2724C00090B5DF /* BaseRemoteDataSource.swift in Sources */,
+				550FD16D2A272BE50090B5DF /* MainDataSource.swift in Sources */,
 				557C64802A08B62900E35056 /* View+navigate.swift in Sources */,
+				550FD1632A27271B0090B5DF /* KeychainImpl.swift in Sources */,
+				550FD1682A2729BD0090B5DF /* SignUpRequestDTO.swift in Sources */,
+				550FD15D2A2726C10090B5DF /* JwtAuthorizable.swift in Sources */,
+				550FD15A2A2725B90090B5DF /* AnyPublisher+map.swift in Sources */,
 				55F9FBD829DD20EE0022E512 /* SignInView.swift in Sources */,
 				557C647E2A08774600E35056 /* Button.swift in Sources */,
 				550F1AA32A14795A00D9A267 /* SearchView.swift in Sources */,
 				55C5127929E6880800002931 /* WooriFontStyle.swift in Sources */,
+				55CDE4E72A28A31E00027E87 /* BaseViewModel.swift in Sources */,
 				55A2052F29F02DBC0074C16F /* SystemScaleColor.swift in Sources */,
 				550F1AA52A14B51600D9A267 /* FilterView.swift in Sources */,
+				550FD15F2A2726D30090B5DF /* JwtPlugin.swift in Sources */,
 				55F9FBAD29DD19D30022E512 /* WoorijipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -727,6 +882,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		550FD1492A2723E20090B5DF /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		550FD14A2A2723E20090B5DF /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 550FD1492A2723E20090B5DF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		550FD14C2A2723E20090B5DF /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 550FD1492A2723E20090B5DF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		550FD14E2A2723E20090B5DF /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 550FD1492A2723E20090B5DF /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55F9FBA129DD19D30022E512 /* Project object */;
 }

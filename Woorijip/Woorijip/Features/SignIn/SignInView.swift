@@ -2,12 +2,16 @@ import Foundation
 import SwiftUI
 
 struct SignInView: View {
+    
     @State private var idText: String = ""
     @State private var passwordText: String = ""
     @State private var isSignInNavigate = false
+    
+    @StateObject var viewModel = SignInViewModel()
 
     
     var body: some View {
+
         VStack {
             Image("SignTopImg").frame(maxWidth: .infinity, alignment: .trailing)
             VStack(alignment: .leading) {
@@ -23,20 +27,20 @@ struct SignInView: View {
                 
                 Spacer().frame(height: 40)
                 
-                FloatingTextField("이메일을 입력해 주세요.", isSecret: false, text: $idText)
+                FloatingTextField("이메일을 입력해 주세요.", isSecret: false, text: $viewModel.email)
                 
                 Spacer().frame(height: 12)
 
-                FloatingTextField("비밀번호를 입력해 주세요.", isSecret: true, text: $passwordText)
+                FloatingTextField("비밀번호를 입력해 주세요.", isSecret: true, text: $viewModel.password)
                 
                 Spacer().frame(height: 40)
 
                 WooriButton(text: "로그인"){
-                    isSignInNavigate.toggle()
+                    viewModel.signinButtonDidTap()
                 }
                 
             }
-            .navigate(to: MainView(), when: $isSignInNavigate)
+            .navigate(to: MainView(), when: $viewModel.isSuccessSignin)
             .navigationTitle("")
             .padding(.horizontal, 40)
         }

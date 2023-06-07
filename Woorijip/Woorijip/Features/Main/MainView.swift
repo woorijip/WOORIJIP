@@ -3,7 +3,7 @@ import SwiftUI
 struct MainView: View {
     @State private var selectedIndex = 0
     @State private var isSearchNavigate = false
-
+    @StateObject var viewModel = MainViewModel()
     
     let icons = [
         "Home",
@@ -81,6 +81,9 @@ struct MainView: View {
                         Spacer()
                     }
                    
+                }
+                .onAppear {
+                    viewModel.onAppear()
                 }
             }
         }
