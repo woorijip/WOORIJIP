@@ -4,8 +4,7 @@ import SwiftUI
 struct WoorijipApp: App {
     var body: some Scene {
         WindowGroup {
-        OnboardView()
-
+            MainView()
         }
     }
 }
