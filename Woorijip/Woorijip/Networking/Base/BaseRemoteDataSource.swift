@@ -29,6 +29,22 @@ public class BaseRemoteDataSource {
 
 private extension BaseRemoteDataSource {
     func defaultRequest(_ api: WoorijipAPI) -> AnyPublisher<Response, WoorijipError> {
+//        provider.request(api) { response in
+//            switch response {
+//            case .success(let result) :
+//                do {
+//                    let members = try self.decoder.decode([mettingResponseDTO].self, from: result.data)
+//                    print("❐")
+//                    print("\(members)")
+//                } catch {
+//                    print("⁉️")
+//                    print(error.localizedDescription)
+//                }
+//            case .failure(let err):
+//                print(err.localizedDescription)
+//            }
+//        }
+        
         return provider.requestPublisher(api)
             .retry(maxRetryCount)
             .timeout(45, scheduler: DispatchQueue.main)

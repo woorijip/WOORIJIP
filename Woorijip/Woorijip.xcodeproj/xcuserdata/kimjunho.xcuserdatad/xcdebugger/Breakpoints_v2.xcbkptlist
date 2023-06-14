@@ -16,8 +16,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
             endingLineNumber = "11"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "WoorijipFontWeight"
+            landmarkType = "13">
             <Locations>
                <Location
                   uuid = "8BFE8883-7B6B-4AD7-96DB-00E3BFFB6110 - e42a0780b937f6d6"
@@ -76,9 +76,41 @@
             filePath = "Woorijip/Networking/Base/BaseRemoteDataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "defaultRequest(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DA2EF5A-FCD8-43B3-9701-0D9C57065935"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Woorijip-fbryfmhdqphnuudsxhvaxwsnueaq/SourcePackages/checkouts/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "logNetworkResponse(_:target:isFromError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "521775F2-47BF-4609-B97E-B933B66A2EF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Library/Developer/Xcode/DerivedData/Woorijip-fbryfmhdqphnuudsxhvaxwsnueaq/SourcePackages/checkouts/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "logNetworkResponse(_:target:isFromError:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

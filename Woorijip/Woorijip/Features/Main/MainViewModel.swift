@@ -11,7 +11,7 @@ import Foundation
 final class MainViewModel: BaseViewModel {
 
     private let mainDataSource = MainDataSource()
-
+    public var data: [mettingResponseDTO] = []
     func onAppear() {
         addCancellable(
             mainDataSource.meetings(
@@ -19,7 +19,10 @@ final class MainViewModel: BaseViewModel {
                 weekType: "WEEKEND",
                 name: "rlaqjawls"
             )
-        ) { [weak self] _ in
+        ) { [weak self] resData in
+            debugPrint("resData")
+            debugPrint(resData)
+            self?.data = resData
         }
     }
 

@@ -17,15 +17,10 @@ struct mettingResponseDTO: Codable {
     let description: String
     let schedules: [Schedule]
     let categories: [String]
-    let meetingCount, createMemberID: Int
+    let meetingCount, createMemberId: Int
     let createdAt, updatedAt: String
-    let reviews: [Int]
 
-    enum CodingKeys: String, CodingKey {
-        case id, name, introduction, thumbnail, location, type, images, description, schedules, categories, meetingCount
-        case createMemberID
-        case createdAt, updatedAt, reviews
-    }
+
 }
 
 // MARK: - Schedule

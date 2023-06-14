@@ -26,6 +26,7 @@ struct MainView: View {
         VStack {
             ZStack {
                 switch selectedIndex {
+                    
                 case 0:
                     NavigationView {
                         VStack() {
@@ -38,7 +39,7 @@ struct MainView: View {
                                 }
                             }
 
-                            if(itemData.isEmpty) {
+                            if(viewModel.data.isEmpty) {
                                 Spacer()
                                 Image("Empty")
                                 Spacer().frame(height: 40.5)
@@ -58,11 +59,12 @@ struct MainView: View {
                                         spacing: nil,
                                         pinnedViews: [],
                                         content: {
-                                            ForEach(0..<50) { index in
+                                            ForEach(0..<viewModel.data.count) { index in
+                                                let data = viewModel.data[index]
                                                 VStack(alignment: .leading) {
                                                     ZStack(alignment: .topLeading) {
                                                         Image("Null").frame(height: 100)
-                                                        Text("42회 진행")
+                                                        Text("\(data.meetingCount)회 진행")
                                                             .wooriFont(font: .AppleSDGothicNeoRegular, size: 10)
                                                             .foregroundColor(.white)
                                                             .padding(.horizontal, 8)
@@ -74,14 +76,14 @@ struct MainView: View {
                                                     
                                                     Spacer().frame(height: 4)
                                                     
-                                                    Text("제목 폼")
+                                                    Text(data.name)
                                                         .wooriFont(font: .NanumMyeongjoBold, size: 12)
-                                                    Text("오늘의 집 4회 소개! 색감맛집")
+                                                    Text(data.introduction)
                                                         .wooriFont(font: .NanumMyeongjo, size: 10)
                                                     
                                                     Spacer().frame(height: 8)
                                                     
-                                                    Text("서울특별시 관악구 봉천동")
+                                                    Text(data.location)
                                                         .foregroundColor(Color("Gray400"))
                                                         .wooriFont(font: .NanumMyeongjo, size: 10)
                                                     

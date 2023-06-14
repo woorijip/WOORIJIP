@@ -34,6 +34,7 @@
 		557C647E2A08774600E35056 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647D2A08774600E35056 /* Button.swift */; };
 		557C64802A08B62900E35056 /* View+navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647F2A08B62900E35056 /* View+navigate.swift */; };
 		557C64842A08D5D800E35056 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64832A08D5D800E35056 /* MainView.swift */; };
+		5596670B2A399E52002517F2 /* MakePartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5596670A2A399E52002517F2 /* MakePartyView.swift */; };
 		55A2052229EFBA100074C16F /* NanumMyeongjo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2051F29EFBA0F0074C16F /* NanumMyeongjo.ttf */; };
 		55A2052329EFBA100074C16F /* NanumMyeongjoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052029EFBA100074C16F /* NanumMyeongjoBold.ttf */; };
 		55A2052429EFBA100074C16F /* NanumMyeongjoExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052129EFBA100074C16F /* NanumMyeongjoExtraBold.ttf */; };
@@ -99,6 +100,7 @@
 		557C647D2A08774600E35056 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		557C647F2A08B62900E35056 /* View+navigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigate.swift"; sourceTree = "<group>"; };
 		557C64832A08D5D800E35056 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5596670A2A399E52002517F2 /* MakePartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePartyView.swift; sourceTree = "<group>"; };
 		55A2051F29EFBA0F0074C16F /* NanumMyeongjo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjo.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjo.ttf"; sourceTree = "<group>"; };
 		55A2052029EFBA100074C16F /* NanumMyeongjoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjoBold.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjoBold.ttf"; sourceTree = "<group>"; };
 		55A2052129EFBA100074C16F /* NanumMyeongjoExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjoExtraBold.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjoExtraBold.ttf"; sourceTree = "<group>"; };
@@ -247,6 +249,14 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+		559667092A399E3A002517F2 /* MakeParty */ = {
+			isa = PBXGroup;
+			children = (
+				5596670A2A399E52002517F2 /* MakePartyView.swift */,
+			);
+			path = MakeParty;
+			sourceTree = "<group>";
+		};
 		55A2051229EFB6A20074C16F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +383,7 @@
 		55F9FBD629DD1DB80022E512 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				559667092A399E3A002517F2 /* MakeParty */,
 				557622C12A29FF2800A6DF39 /* Main */,
 				55CDE4E12A28A1CC00027E87 /* SignIn */,
 				557C64792A0202AB00E35056 /* Extension */,
@@ -531,6 +542,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55345A5729F8FAF100D0F007 /* PageControl.swift in Sources */,
+				5596670B2A399E52002517F2 /* MakePartyView.swift in Sources */,
 				557C64842A08D5D800E35056 /* MainView.swift in Sources */,
 				557C647B2A0202B600E35056 /* TextField.swift in Sources */,
 				55345A4E29F8BD6500D0F007 /* WoorijipFontStyle.swift in Sources */,

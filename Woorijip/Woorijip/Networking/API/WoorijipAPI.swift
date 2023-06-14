@@ -29,7 +29,7 @@ extension WoorijipAPI {
     }
 
     var baseURL: URL {
-        URL(string: "http://192.168.36.57:8080")! // TODO: 나중에 바꾸기
+        URL(string: "http://192.168.245.57:8080")! // TODO: 나중에 바꾸기
     }
 
     var headers: [String: String]? {
@@ -72,11 +72,12 @@ extension WoorijipAPI {
         case let .signup(content):
             return .requestCustomJSONEncodable(content, encoder: encoder)
         case let .meetings(categories, weekType, name):
-            return .requestParameters(parameters: [
-                "categories": categories,
-                "weekType": weekType,
-                "name": name
-            ], encoding: URLEncoding.queryString)
+            return .requestPlain
+//            return .requestParameters(parameters: [
+//                //"categories": categories,
+//                //"weekType": weekType,
+//               // "name": name
+//            ], encoding: URLEncoding.queryString)
         }
     }
     
