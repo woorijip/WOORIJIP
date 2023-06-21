@@ -2,8 +2,12 @@ import Combine
 import Foundation
 
 final class SignInViewModel: BaseViewModel {
-    @Published var email = "kimjjun1007@gmail.com"
-    @Published var password = "qwer1234!"
+//    @Published var email = "kimjjun1007@gmail.com"
+//    @Published var password = "qwer1234!"
+    
+    @Published var email = ""
+    @Published var password = ""
+    
 
     @Published var isOnAutoSignin = true
     @Published var isSuccessSignin = false

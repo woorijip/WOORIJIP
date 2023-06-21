@@ -35,6 +35,7 @@
 		557C64802A08B62900E35056 /* View+navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C647F2A08B62900E35056 /* View+navigate.swift */; };
 		557C64842A08D5D800E35056 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557C64832A08D5D800E35056 /* MainView.swift */; };
 		5596670B2A399E52002517F2 /* MakePartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5596670A2A399E52002517F2 /* MakePartyView.swift */; };
+		5596670E2A3C271F002517F2 /* Category.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5596670D2A3C271F002517F2 /* Category.xcassets */; };
 		55A2052229EFBA100074C16F /* NanumMyeongjo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2051F29EFBA0F0074C16F /* NanumMyeongjo.ttf */; };
 		55A2052329EFBA100074C16F /* NanumMyeongjoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052029EFBA100074C16F /* NanumMyeongjoBold.ttf */; };
 		55A2052429EFBA100074C16F /* NanumMyeongjoExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A2052129EFBA100074C16F /* NanumMyeongjoExtraBold.ttf */; };
@@ -101,6 +102,7 @@
 		557C647F2A08B62900E35056 /* View+navigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+navigate.swift"; sourceTree = "<group>"; };
 		557C64832A08D5D800E35056 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5596670A2A399E52002517F2 /* MakePartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePartyView.swift; sourceTree = "<group>"; };
+		5596670D2A3C271F002517F2 /* Category.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Category.xcassets; sourceTree = "<group>"; };
 		55A2051F29EFBA0F0074C16F /* NanumMyeongjo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjo.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjo.ttf"; sourceTree = "<group>"; };
 		55A2052029EFBA100074C16F /* NanumMyeongjoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjoBold.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjoBold.ttf"; sourceTree = "<group>"; };
 		55A2052129EFBA100074C16F /* NanumMyeongjoExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumMyeongjoExtraBold.ttf; path = "../../../../../../nanum-myeongjo/NanumMyeongjoExtraBold.ttf"; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				55F9FBB029DD19D30022E512 /* Assets.xcassets */,
+				5596670D2A3C271F002517F2 /* Category.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -344,8 +347,8 @@
 			isa = PBXGroup;
 			children = (
 				55345A5529F8D0DF00D0F007 /* Info.plist */,
-				55CDE4E52A28A31400027E87 /* Base */,
 				55CDE4E42A28A2E500027E87 /* Resources */,
+				55CDE4E52A28A31400027E87 /* Base */,
 				55F9FBB229DD19D30022E512 /* Preview Content */,
 				550FD1502A27241A0090B5DF /* Networking */,
 				55C5127729E685BD00002931 /* DesignSystem */,
@@ -509,6 +512,7 @@
 				55A2052229EFBA100074C16F /* NanumMyeongjo.ttf in Resources */,
 				55A2052329EFBA100074C16F /* NanumMyeongjoBold.ttf in Resources */,
 				55A2052929EFBCC30074C16F /* MainColor.xcassets in Resources */,
+				5596670E2A3C271F002517F2 /* Category.xcassets in Resources */,
 				55A2052429EFBA100074C16F /* NanumMyeongjoExtraBold.ttf in Resources */,
 				55345A5329F8C96700D0F007 /* AppleSDGothicNeoR.ttf in Resources */,
 				55A2052B29EFBED00074C16F /* SystemColor.xcassets in Resources */,

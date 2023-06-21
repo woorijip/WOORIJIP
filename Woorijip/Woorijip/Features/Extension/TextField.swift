@@ -1,10 +1,3 @@
-//
-//  TextField.swift
-//  Woorijip
-//
-//  Created by 김준호 on 2023/05/03.
-//
-
 import SwiftUI
 
 public struct FloatingTextField: View {
